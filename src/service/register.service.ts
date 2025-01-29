@@ -6,7 +6,7 @@ import { RegisterStudent } from '../page/registration/register-student';
   providedIn: 'root'
 })
 export class RegisterService {
- baseurl:string='http://localhost:8080';
+ baseurl:string='https://login-registration-0dc9bd014206.herokuapp.com';
   constructor(private http:HttpClient) { }
 
   registerStudent(student:RegisterStudent){
