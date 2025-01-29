@@ -7,7 +7,7 @@ import { Student } from '../component/student';
   providedIn: 'root'
 })
 export class LoginService {
-  baseurl="http://localhost:8080";
+  baseurl="https://login-registration-0dc9bd014206.herokuapp.com";
 
   constructor(private http:HttpClient) { }
 
