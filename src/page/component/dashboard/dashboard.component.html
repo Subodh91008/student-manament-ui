@@ -1,0 +1,38 @@
+
+
+<body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Student-managment-System</h2>
+      <table class="table table-bordered table-hover table-striped text-center align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>S.no</th>
+            <th>FistName</th>
+            <th>LastName</th>
+            <th>College</th>
+            <th>Book</th>
+            <th>Address</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+            <td>{{student.sid}}</td>
+            <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
+            <td>{{student.college}}</td>
+            <td>{{student.book}}</td>
+            <td>{{student.address}}</td>
+            <td>
+              <button class="btn btn-primary btn-sm" >Add</button>
+              <button class="btn btn-warning btn-sm" >Edit</button>
+              <button class="btn btn-danger btn-sm" >Delete</button>
+            </td>
+          </tr>       
+        </tbody>
+      </table>
+    </div>
+  </body>
+  
+  
+  

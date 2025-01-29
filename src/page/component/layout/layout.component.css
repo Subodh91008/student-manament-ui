@@ -1,0 +1,26 @@
+
+.navbar-custom {
+  background-color: #4CAF50; /* Stylish green */
+}
+.navbar-custom .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.navbar-custom .nav-link {
+  color: #fff;
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+.navbar-custom .nav-link:hover {
+  color: #ffeb3b; /* Stylish yellow hover */
+}
+.navbar-custom .btn-outline-light {
+  border-color: #ffeb3b;
+  color: #ffeb3b;
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbar-custom .btn-outline-light:hover {
+  background-color: #ffeb3b;
+  color: #4CAF50;
+}
